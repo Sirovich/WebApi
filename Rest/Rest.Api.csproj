@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Rest.DataLayer\Rest.DataLayer.csproj" />
+    <ProjectReference Include="..\Rest.Logic\Rest.Logic.csproj" />
+    <ProjectReference Include="..\Rest.Models\Rest.Models.csproj" />
+  </ItemGroup>
+
+</Project>
